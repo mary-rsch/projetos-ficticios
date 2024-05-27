@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Elymaic&display=swap');
+
+  .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-direction: row;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  .menu {
+    display: flex; 
+    align-items: center; 
+    width: auto;
+    justify-content: flex-end;
+    font-family: "Noto Sans Elymaic", sans-serif;
+  }
+  
+  .menu ul {
+    display: flex; /* Flexbox na lista */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    flex-grow: 1; /* Distribuir espaço entre os itens */
+    display: inline-block; /* Manter os itens em linha */
+    margin-left: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .menu a:hover {
+    color: #734190;
+  }
+  
